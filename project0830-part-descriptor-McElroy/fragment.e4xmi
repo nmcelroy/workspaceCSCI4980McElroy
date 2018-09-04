@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_lvPLEKyeEei5gq_kLgxNYA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_m-HZAKyeEei5gq_kLgxNYA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_x-60AKyeEei5gq_kLgxNYA" elementId="project0830-part-descriptor-mcelroy.command.showhellopartdescriptor" commandName="Show Hello Part Descriptor"/>
+    <elements xsi:type="commands:Command" xmi:id="_yWcjMKyeEei5gq_kLgxNYA" elementId="project0830-part-descriptor-mcelroy.command.clearpartdescriptor" commandName="Clear Part Descriptor"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_2zWMUKyeEei5gq_kLgxNYA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_7FuAcKyeEei5gq_kLgxNYA" elementId="project0830-part-descriptor-mcelroy.partdescriptor.viewpartdescriptor" label="View Part Descriptor" contributionURI="bundleclass://project0830-part-descriptor-McElroy/viewer.ViewPartDescriptor">
+      <handlers xmi:id="_Pmf84KyfEei5gq_kLgxNYA" elementId="project0830-part-descriptor-mcelroy.handler.0" contributionURI="bundleclass://project0830-part-descriptor-McElroy/handler.ShowHelloPartDescriptorHandler" command="_x-60AKyeEei5gq_kLgxNYA"/>
+      <handlers xmi:id="_WGffIKyfEei5gq_kLgxNYA" elementId="project0830-part-descriptor-mcelroy.handler.1" contributionURI="bundleclass://project0830-part-descriptor-McElroy/handler.ClearPartDescriptorHandler" command="_yWcjMKyeEei5gq_kLgxNYA"/>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_GTan8KyfEei5gq_kLgxNYA" elementId="project0830-part-descriptor-mcelroy.popupmenu.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_MHVuYKyfEei5gq_kLgxNYA" elementId="project0830-part-descriptor-mcelroy.handledmenuitem.showhello" label="Show Hello" command="_x-60AKyeEei5gq_kLgxNYA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ODEbQKyfEei5gq_kLgxNYA" elementId="project0830-part-descriptor-mcelroy.handledmenuitem.clear" label="Clear" command="_yWcjMKyeEei5gq_kLgxNYA"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

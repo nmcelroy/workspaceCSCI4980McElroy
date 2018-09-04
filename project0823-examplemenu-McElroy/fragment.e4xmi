@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_rMrWUKcbEeiVj69G1Q5Hrw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_1KAssKccEeiVj69G1Q5Hrw" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_Sn5HAKcdEeiVj69G1Q5Hrw" elementId="project0823-examplemenu-mcelroy.menucontribution.0" accessibilityPhrase="" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_fbptYKcdEeiVj69G1Q5Hrw" elementId="project0823-examplemenu-mcelroy.menu.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6UjCcKcdEeiVj69G1Q5Hrw" elementId="project0823-examplemenu-mcelroy.handledmenuitem.showhelloworld" label="Show Hello World"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

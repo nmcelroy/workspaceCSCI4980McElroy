@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_3Zn1MKsJEeiih66r45GJzw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6RGYoKsJEeiih66r45GJzw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="__6K58KsJEeiih66r45GJzw" elementId="project0828-helloplugin-mcelroy.command.showhelloworld" commandName="Show Hello World"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_mr2a4KsKEeiih66r45GJzw" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_piw9oKsKEeiih66r45GJzw" elementId="project0828-helloplugin-mcelroy.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_t_m8YKsKEeiih66r45GJzw" elementId="project0828-helloplugin-mcelroy.menu.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_vmSmUKsKEeiih66r45GJzw" elementId="project0828-helloplugin-mcelroy.handledmenuitem.showhelloworld" label="Show Hello World" command="__6K58KsJEeiih66r45GJzw"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_tJVmQKsLEeiih66r45GJzw" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_0HBxIKsLEeiih66r45GJzw" elementId="project0828-helloplugin-mcelroy.handler.0" contributionURI="bundleclass://project0828-helloplugin-McElroy/ShowHelloWorldHandler" command="__6K58KsJEeiih66r45GJzw"/>
+  </fragments>
+</fragment:ModelFragments>
