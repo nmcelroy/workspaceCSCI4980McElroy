@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_-84N0LeXEeiktaDl1ECJ7g">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__6IgQLeXEeiktaDl1ECJ7g" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_Rn4UYLeYEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_eQmIYLeYEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.menu." label="20180913-Q1-Nicole-McElroy">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_e24sULeYEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.handledmenuitem.readfileandshowhello" label="Read File and Show Hello" command="_wJfckLeYEeiktaDl1ECJ7g"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rvA1ULeYEeiktaDl1ECJ7g" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_wJfckLeYEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.command.readfileandshowhello" commandName="Read File and Show Hello"/>
+    <elements xsi:type="commands:Command" xmi:id="_k7hdYLeaEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.command.reverse" commandName="Reverse"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_zLPWULeYEeiktaDl1ECJ7g" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_0srT4LeYEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.handler.0" contributionURI="bundleclass://project-20180913-Q1-Nicole-McElroy/ReadFileandShowHelloHandler" command="_wJfckLeYEeiktaDl1ECJ7g"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_qDCw0LeaEeiktaDl1ECJ7g" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_sEjVkLeaEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.partdescriptor.simpleview20180913q1nicolemcelroy" label="Simple View 20180913 Q1 Nicole McElroy" contributionURI="bundleclass://project-20180913-Q1-Nicole-McElroy/view.SimpleView20180913Q1NicoleMcElroy">
+      <handlers xmi:id="_FgztgLebEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.handler.1" contributionURI="bundleclass://project-20180913-Q1-Nicole-McElroy/handler.Reverse" command="_k7hdYLeaEeiktaDl1ECJ7g"/>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_MZ-kwLebEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.popupmenu.reverse" label="Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_VZonYLebEeiktaDl1ECJ7g" elementId="project-20180913-q1-nicole-mcelroy.handledmenuitem.reverse" label="Reverse" command="_k7hdYLeaEeiktaDl1ECJ7g"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
