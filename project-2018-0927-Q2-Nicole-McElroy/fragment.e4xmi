@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ck2psMKYEeiny8LVdWhz2w">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_TUH90MKbEeiny8LVdWhz2w" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="__hzNYMKbEeiny8LVdWhz2w" elementId="project-2018-0927-q2-nicole-mcelroy.partdescriptor.simpletableview20180927q2nicolemcelroy" label="Simple Table View 2018 0927 Q2 Nicole McElroy" contributionURI="bundleclass://project-2018-0927-Q2-Nicole-McElroy/view.SimpleTableView20180927Q2NicoleMcElroy"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_SbWwgMKgEeiny8LVdWhz2w" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_U_-pYMKgEeiny8LVdWhz2w" elementId="project-2018-0927-q2-nicole-mcelroy.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_afdw4MKgEeiny8LVdWhz2w" elementId="project-2018-0927-q2-nicole-mcelroy.menu.2018-0927-q2-nicole-mcelroy" label="2018-0927-Q2-Nicole-McElroy">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ctLloMKgEeiny8LVdWhz2w" elementId="project-2018-0927-q2-nicole-mcelroy.handledmenuitem.export" label="Export" command="_lr5NEMKgEeiny8LVdWhz2w"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_kAeNEMKgEeiny8LVdWhz2w" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_lr5NEMKgEeiny8LVdWhz2w" elementId="project-2018-0927-q2-nicole-mcelroy.command.export" commandName="Export"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_XciV8MKhEeiny8LVdWhz2w" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_Z7N-4MKhEeiny8LVdWhz2w" elementId="project-2018-0927-q2-nicole-mcelroy.handler.0" contributionURI="bundleclass://project-2018-0927-Q2-Nicole-McElroy/exportHandler" command="_lr5NEMKgEeiny8LVdWhz2w"/>
+  </fragments>
+</fragment:ModelFragments>
