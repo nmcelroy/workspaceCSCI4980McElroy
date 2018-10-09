@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_kVW_EMgeEeiyGPBMnivLwQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lKq2cMgeEeiyGPBMnivLwQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_nSgFoMgeEeiyGPBMnivLwQ" elementId="simpletableast2editableexample.partdescriptor.simpleasteditabletable" label="Simple Table View - Rename Type AST - 1004 McElroy" iconURI="platform:/plugin/project1004-type-ast-rename-McElroy/icons/sample.png" contributionURI="bundleclass://project1004-type-ast-rename-McElroy/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_y1BRIMgfEeiyGPBMnivLwQ" elementId="simpletableast2editableexample.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_8_lAoMgfEeiyGPBMnivLwQ" elementId="project1004-type-ast-rename-mcelroy.handledmenuitem.refresh" label="Refresh" iconURI="" command="_7hc1wMgfEeiyGPBMnivLwQ"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_4stdQMgfEeiyGPBMnivLwQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_7hc1wMgfEeiyGPBMnivLwQ" elementId="project1004-type-ast-rename-mcelroy.command.refresh" commandName="Refresh"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_E27XYMggEeiyGPBMnivLwQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_G1n4sMggEeiyGPBMnivLwQ" elementId="project1004-type-ast-rename-mcelroy.handler.0" contributionURI="bundleclass://project1004-type-ast-rename-McElroy/handler.TableRefreshHandler" command="_7hc1wMgfEeiyGPBMnivLwQ"/>
+  </fragments>
+</fragment:ModelFragments>
