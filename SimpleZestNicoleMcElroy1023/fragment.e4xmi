@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_bL42UNcKEeiE1Jn29t3cZA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_eg3OENcKEeiE1Jn29t3cZA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_iO3J0NcKEeiE1Jn29t3cZA" elementId="simplezestnicolemcelroy1023.partdescriptor.simplezestnicolemcelroy1023" label="Simple Zest Nicole McElroy 1023" contributionURI="bundleclass://SimpleZestNicoleMcElroy1023/view.SimpleZestView"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_t8oYgNcKEeiE1Jn29t3cZA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_485oANcKEeiE1Jn29t3cZA" elementId="simplezestnicolemcelroy1023.command.zestview" commandName="Zest View"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_5zQoQNcKEeiE1Jn29t3cZA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_7b5aANcKEeiE1Jn29t3cZA" elementId="simplezestnicolemcelroy1023.handler.0" contributionURI="bundleclass://SimpleZestNicoleMcElroy1023/handler.SimpleZestHandler" command="_485oANcKEeiE1Jn29t3cZA"/>
+  </fragments>
+</fragment:ModelFragments>

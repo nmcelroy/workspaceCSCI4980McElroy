@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="__EpJEM2YEeiegqREBX84aw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__wKyUM2YEeiegqREBX84aw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_BvQVMM2ZEeiegqREBX84aw" elementId="project-2018-1011-midterm-nicole-mcelroy.partdescriptor.simpletableview20181011midtermnicolemcelroy" label="Simple Table View 2018 1011 Midterm Nicole McElroy" contributionURI="bundleclass://project-2018-1011-Midterm-Nicole-McElroy/view.SimpleTableView20181011MidtermNicoleMcElroy">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_IrC7QM2cEeiegqREBX84aw" elementId="project-2018-1011-midterm-nicole-mcelroy.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JTVDQM2cEeiegqREBX84aw" elementId="project-2018-1011-midterm-nicole-mcelroy.handledmenuitem.exportselectedrows" label="Export Selected Row(s)" command="_TUzvQM2cEeiegqREBX84aw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_dYDV0M2cEeiegqREBX84aw" elementId="project-2018-1011-midterm-nicole-mcelroy.handledmenuitem.movetop" label="Move Top" command="_fwtPQM2cEeiegqREBX84aw"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_RiMiIM2cEeiegqREBX84aw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_TUzvQM2cEeiegqREBX84aw" elementId="project-2018-1011-midterm-nicole-mcelroy.command.exportselectedrows" commandName="Export Selected Rows"/>
+    <elements xsi:type="commands:Command" xmi:id="_fwtPQM2cEeiegqREBX84aw" elementId="project-2018-1011-midterm-nicole-mcelroy.command.movetop" commandName="Move Top"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_h6iCgM2cEeiegqREBX84aw" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_kDmn0M2cEeiegqREBX84aw" elementId="project-2018-1011-midterm-nicole-mcelroy.handler.0" contributionURI="bundleclass://project-2018-1011-Midterm-Nicole-McElroy/handler.ExportHandler" command="_TUzvQM2cEeiegqREBX84aw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_nYECMM2cEeiegqREBX84aw" elementId="project-2018-1011-midterm-nicole-mcelroy.handler.1" contributionURI="bundleclass://project-2018-1011-Midterm-Nicole-McElroy/handler.MoveTopHandler" command="_fwtPQM2cEeiegqREBX84aw"/>
+  </fragments>
+</fragment:ModelFragments>
